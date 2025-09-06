@@ -1,1 +1,1 @@
-Sem2 : DS Lab Assignments
+Sem3 : DS Lab Assignments
