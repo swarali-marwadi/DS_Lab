@@ -22,14 +22,15 @@ int menu()
 	int ch=0;
 	do
 	{
-		printf("\nEnter operation to perform on stack:");
+		printf("\n\nEnter operation to perform on stack:");
 		printf("\n1.Push");
 		printf("\n2.Pop");
 		printf("\n0.Exit");
+		printf("\nEnter your choice :");
 		scanf("%d",&ch);
 		if(ch<0||ch>2)
 		{
-			printf("Enter valid choice");
+			printf("\nEnter valid choice");
 		}
 	}while(ch<0||ch>2);
 	return ch;
@@ -118,11 +119,11 @@ int main()
 			success=push(&top, &idata);
 			if(success==0)
 			{
-				printf("\n\t push successful");
+				printf("\n\tPush successful");
 			}
 			else
 			{
-				printf("\n\t push failed");
+				printf("\n\tPush failed");
 			}
 			break;
 
@@ -130,18 +131,18 @@ int main()
 			success=pop(&top,&ddata);
 			if(success==0)
 			{
-				printf("\n\t Pop successful");
-				printf("\n Pop Data : %d",ddata);
+				printf("\n\tPop successful");
+				printf("\n\tPop Data : %d",ddata);
 			}
 			else
 			{
-				printf("\n\t Pop failed");
+				printf("\n\tPop failed");
 			}
 			break;
 
 		case 0:
 			conti=1;
-			printf("Thank You");
+			printf("\n\tThank You");
 			break;
 		}
 	}while(conti==0);
