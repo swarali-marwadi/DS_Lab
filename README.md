@@ -1,1 +1,1 @@
-2nd year/Sem3 : DS Lab Assignments
+IT/2nd year/Sem3 : DS Lab Assignments
